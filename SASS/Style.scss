@@ -7,13 +7,15 @@
 
 header {
     margin: auto;
-    box-shadow: 0 5px 20px;
+    box-shadow: 0 5px 20px gray;
     padding: 10px 20px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    img {
+        height: 60px;
+    }
     nav {
         ul {
             display: flex;
